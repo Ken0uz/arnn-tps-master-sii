@@ -45,7 +45,7 @@ pip install numpy pandas matplotlib scikit-learn tensorflow
 
 1. Clone this repository to your local machine:
    ```bash
-   git clone https://github.com/KenOuz/arnn-tps-master-sii.git
+   git clone https://github.com/Ken0uz/arnn-tps-master-sii.git
 
 2. Navigate to the desired TP folder:
    ```bash
