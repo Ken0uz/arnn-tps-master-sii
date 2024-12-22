@@ -38,11 +38,23 @@ You can install the necessary packages using pip:
 
 ```bash
 pip install numpy pandas matplotlib scikit-learn tensorflow
-
+```
 
 
 ## How to Use
 
 1. Clone this repository to your local machine:
    ```bash
-   git clone https://github.com/your-username/arnn-tps-master-sii.git
+   git clone https://github.com/KenOuz/arnn-tps-master-sii.git
+
+2. Navigate to the desired TP folder:
+   ```bash
+   cd arnn-tps-master-sii/TP1
+4. Open the notebook or script in Jupyter Notebook:
+   ```bash
+   jupyter notebook TP1.ipynb
+
+
+
+
+
