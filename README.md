@@ -55,6 +55,3 @@ pip install numpy pandas matplotlib scikit-learn tensorflow
    jupyter notebook TP1.ipynb
 
 
-
-
-
