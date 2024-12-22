@@ -1,6 +1,6 @@
 # ARNN - Master SII
 
-This repository contains the work for the ARNN (Artificial Neural Networks and Neural Networks) module in the Master SII program. The project is structured into several TPs (Travaux Pratiques) where each TP covers a different concept related to neural networks, including performance evaluation, gradient descent, multi-class classification, and backpropagation algorithms.
+This repository contains the work for the ARNN (Artificial Neural Networks) module in the Master SII program. The project is structured into several TPs (Travaux Pratiques) where each TP covers a different concept related to neural networks, including performance evaluation, gradient descent, multi-class classification, and backpropagation algorithms.
 
 ## Repository Structure
 
