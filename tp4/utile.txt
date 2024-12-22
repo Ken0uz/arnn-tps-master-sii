@@ -1,0 +1,7 @@
+
+La régularisation est une technique utilisée en apprentissage 
+automatique pour prévenir le surapprentissage (overfitting) et
+ pour améliorer la capacité de généralisation d'un modèle.
+ L'idée de base de la régularisation est d'ajouter une pénalité
+ aux paramètres du modèle afin de les contraindre à rester petits, 
+ce qui peut aider à réduire la complexité du modèle et à prévenir le surapprentissage.

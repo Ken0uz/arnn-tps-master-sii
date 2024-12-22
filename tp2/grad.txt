@@ -1,0 +1,7 @@
+Initialisation des poids (thêta) : L'algorithme de descente du gradient nécessite une initialisation des poids (thêta) avant de commencer l'optimisation. La méthode d'initialisation peut influencer la convergence de l'algorithme et donc les valeurs initiales du coût. Scikit-learn utilise une initialisation spécifique des poids basée sur la méthode des moindres carrés ordinaires, tandis que votre implémentation peut utiliser une initialisation différente.
+
+Paramètres d'optimisation : Les algorithmes de descente du gradient peuvent avoir différents paramètres d'optimisation tels que le taux d'apprentissage (learning rate), le nombre d'itérations, etc. Ces paramètres peuvent affecter la vitesse et la convergence de l'algorithme, ce qui pourrait entraîner des valeurs différentes du coût final.
+
+Normalisation des données : Scikit-learn effectue souvent une normalisation automatique des données, ce qui peut aider à stabiliser l'entraînement et à faciliter la convergence de l'algorithme. Si vous n'avez pas effectué de normalisation dans votre implémentation personnalisée, cela peut conduire à des différences significatives dans les valeurs du coût.
+
+Différences d'implémentation : Même si vous essayez de répliquer exactement l'algorithme de descente du gradient utilisé par scikit-learn, de petites différences dans l'implémentation peuvent toujours conduire à des résultats légèrement différents.

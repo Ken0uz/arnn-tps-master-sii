@@ -1,0 +1,7 @@
+regularizations = [np.hstack((np.zeros((theta.shape[0],1)), theta[:,1:])) for theta in thetas]:
+Cette ligne calcule les termes de régularisation pour chaque matrice de poids.
+Elle crée une listeregularizations où chaque élément correspond à une matrice de poids régularisée. 
+Pour chaque matrice de poids theta dans la liste thetas, la ligne ajoute une colonne de zéros 
+à gauche (pour la régularisation L2) et supprime la première colonne de la matrice de poids
+originale (car la régularisation L2 ne s'applique pas au terme de biais). 
+Ainsi, chaque élément de regularizations est une version régularisée de la matrice de poids correspondante dans thetas.
